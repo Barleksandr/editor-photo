@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "clsx": "^1.2.1",
     "prettier": "^2.7.1"
   }
 }

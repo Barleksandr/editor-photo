@@ -1,0 +1,35 @@
+@import '../../scss/variables';
+
+.upload {
+  &__btn {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    justify-content: center;
+    text-align: center;
+    max-width: 150px;
+    color: #fff;
+    background-color: $blueColor;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+    &:hover {
+      background-color: lighten($color: $blueColor, $amount: 10);
+    }
+  }
+
+  &__btn_select {
+    cursor: not-allowed;
+  }
+
+  &__defaultBtn {
+    display: none;
+  }
+
+  &__icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+}
