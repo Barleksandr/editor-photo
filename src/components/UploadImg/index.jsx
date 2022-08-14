@@ -7,7 +7,7 @@ const UploadImg = () => {
   const [uploadedImage, setUploadedImage] = useState(null);
 
   // MIME типы изображений доступных для обработки
-  const allowedMIMETypes = ['.png', '.jpg', '.jpeg', '.svg', 'webp'];
+  const allowedMIMETypes = ['.png', '.jpg', '.jpeg', '.svg', '.webp'];
 
   const convertToBase64 = (file) => {
     return new Promise((resolve, reject) => {
